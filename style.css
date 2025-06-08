@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f7f9;
+  color: #333;
+}
+header, footer {
+  background: #00796b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+main {
+  padding: 2rem;
+}
+.product-info ul {
+  list-style: none;
+  padding: 0;
+}
+.product-info li {
+  background: #e0f2f1;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background: #00796b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.popup-content {
+  background: white;
+  padding: 2rem;
+  margin: 10% auto;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
